@@ -31,7 +31,7 @@ body {
   padding: 1.5rem;
 }
 
-.card picuture, img {
+.card img {
   max-width: 100%;
 }
 
@@ -72,13 +72,8 @@ body {
 
 .card span.active-price {
   font-family: 'Fraunces', serif;
-  font-weight: 700;
   font-size: 1.8rem;
   color: var(--dark-cyan);
-}
-
-.card span.old-price {
-  text-decoration: line-through;
 }
 
 .card button {
@@ -107,4 +102,23 @@ body {
 .card button > span::before {
   content: url('./images/icon-cart.svg');
   margin-right: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    max-width: 600px;
+    height: 100%;
+
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .card h1 {
+    font-size: 2rem;
+  }
+
+  .card img {
+    max-width: 50%;
+  }
 }

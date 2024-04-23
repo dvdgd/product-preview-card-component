@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+picture {
+  display: contents;
+}
+
 :root {
   /* Primary */
   --dark-cyan: hsl(158, 36%, 37%);
