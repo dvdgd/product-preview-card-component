@@ -13,7 +13,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark cyan: hsl(158, 36%, 37%)
+- Dark cyan: hsl(158, 36%, 37%); 
+- Dark cyan active state: hsl(159, 29%, 25%);
 - Cream: hsl(30, 38%, 92%)
 
 ### Neutral
